@@ -364,7 +364,7 @@ html[data-theme="light"] .device-frame {
 .signal { display: inline-flex; gap: 7px; }
 .signal span { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.24); }
 .live-ribbon {
-  display: inline-flex;
+  display: none;
   align-items: center;
   gap: 8px;
   margin-bottom: 14px;
