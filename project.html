@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shepherd / SmartLens — Final Project Diary</title>
+  <meta name="description" content="Final HCI project diary for Shepherd / SmartLens, including refined visual hierarchy, extracted PDF evidence, upgraded video previews, MSA integration, and reflection." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="index.html" aria-label="Go to overview page">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span class="brand-text">
+            <strong>Mridul Kumar Sharma</strong>
+            <span>HCI Course Portfolio · Final Project Diary</span>
+          </span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html">Overview</a>
+          <a class="active" href="project.html" aria-current="page">Project Page</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle light and dark mode">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4a9 9 0 1 0 11.5 11.5Z"></path></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-ambient" aria-hidden="true">
+        <div class="orb one"></div>
+        <div class="orb two"></div>
+        <div class="orb three"></div>
+      </div>
+      <div class="container">
+        <div class="award-panel reveal">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <div class="eyebrow">Refined Project Page</div>
+              <h1>Shepherd / SmartLens: <span class="accent">final project diary</span></h1>
+              <div class="spacer-16"></div>
+              <p class="lead">This refined version strengthens the opening hierarchy, uses a more readable HCI-friendly font system, and presents the project with a premium landing-page treatment while keeping the course content structured, legible, and evidence-driven.</p>
+              <div class="hero-meta" aria-label="Highlights">
+                <span class="meta-pill">Formal submission tone</span>
+                <span class="meta-pill">Readable typography</span>
+                <span class="meta-pill">PDF evidence included</span>
+                <span class="meta-pill">Fixed video previews</span>
+              </div>
+              <div class="btn-row">
+                <button class="btn btn-primary" type="button" data-video-open="GWiHdHpN7lo" data-video-title="SmartLens demo">Play SmartLens demo</button>
+                <button class="btn btn-secondary" type="button" data-video-open="E6nw4WtdHk4" data-video-title="BMind video paper">Play BMind video paper</button>
+              </div>
+            </div>
+            <div class="hero-side" aria-hidden="true">
+              <div class="hero-card-stack">
+                <div class="spot-card"></div>
+                <div class="float-chip c1">Stronger opening hierarchy</div>
+                <div class="float-chip c2">Improved media treatment</div>
+                <div class="device-frame">
+                  <div class="device-header">
+                    <div class="device-title"><strong>Portfolio focus</strong><span>Readable, evidence-driven HCI storytelling</span></div>
+                    <div class="signal"><span></span><span></span><span></span></div>
+                  </div>
+                  <div class="live-ribbon">Submission-ready</div>
+                  <div class="device-stack">
+                    <article class="notify"><div class="notify-top"><strong>Project description</strong><span class="pill pill-teal">Section 1</span></div><p>Problem framing, goals, and feature direction.</p><div class="notify-meta">Clear academic structure.</div></article>
+                    <article class="notify"><div class="notify-top"><strong>Process evidence</strong><span class="pill pill-good">Section 3</span></div><p>PDF screenshots embedded in the portfolio.</p><div class="notify-meta">Concrete design-stage proof.</div></article>
+                    <article class="notify"><div class="notify-top"><strong>Video previews</strong><span class="pill pill-good">Updated</span></div><p>Thumbnail-based preview cards with modal playback.</p><div class="notify-meta">Cleaner than heavy inline iframes.</div></article>
+                    <article class="notify"><div class="notify-top"><strong>Typography</strong><span class="pill pill-teal">Inter</span></div><p>Readable, research-friendly, and HCI-aligned.</p><div class="notify-meta">Improved scannability and hierarchy.</div></article>
+                  </div>
+                  <div class="scanner-panel"><div class="scan-line"></div><strong>Design Lens</strong><span>Low friction · high clarity · calm guidance</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Section 1</div><h2 class="section-title">Project description &amp; goal</h2></div>
+        <div class="g2">
+          <article class="card reveal"><span class="card-kicker">What is Shepherd / SmartLens?</span><h3>Making health data actionable</h3><p>Shepherd is presented as an always-on, context-aware autonomous AI assistant designed to guide and protect users in daily life. The project responds to two key user needs identified during needfinding: post-COVID misinformation overload and the lack of actionable insight in passive health tracking.</p><p>SmartLens is the interface expression of that concept, combining fake-news detection, a calorie scanner, step tracking, sleep monitoring, and live notifications in a calm, readable dashboard.</p></article>
+          <article class="card reveal"><span class="card-kicker">Project goals</span><h3>Interaction priorities</h3><ul class="checklist"><li>Reduce cognitive load.</li><li>Make health data actionable.</li><li>Build trust through visible processing.</li><li>Support personalization and timely intervention.</li><li>Remain minimally intrusive.</li><li>Preserve user control and privacy.</li></ul></article>
+        </div>
+        <div class="spacer-16"></div>
+        <div class="g4">
+          <article class="feature-card reveal"><div class="feature-icon" aria-hidden="true">🛡️</div><h3>Fake-news detector</h3><p>Helps users quickly identify misleading health information on social platforms.</p></article>
+          <article class="feature-card reveal"><div class="feature-icon" aria-hidden="true">🍽️</div><h3>AI calorie scanner</h3><p>Uses image-based analysis to reduce manual effort and deliver a clearer nutrition breakdown.</p></article>
+          <article class="feature-card reveal"><div class="feature-icon" aria-hidden="true">🧠</div><h3>Context-aware inference</h3><p>Connects multiple signals to generate more meaningful support than isolated dashboards.</p></article>
+          <article class="feature-card reveal"><div class="feature-icon" aria-hidden="true">🔒</div><h3>Privacy-by-design</h3><p>Positions trust, autonomy, and data control as core HCI requirements rather than afterthoughts.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="diary">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Section 2</div><h2 class="section-title">How the project evolved — Learning &amp; execution process</h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-num">1</div><div><h3>Needfinding &amp; motivations</h3><p>We identified misinformation overload and non-actionable passive tracking as the two central user problems the system should address.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-num">2</div><div><h3>Brainstorming &amp; GOMS analysis</h3><p>Different interaction pathways were compared, including scanning, manual entry, and voice, to evaluate effort, clarity, and practicality.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-num">3</div><div><h3>Low- to medium-fidelity prototyping</h3><p>Hand-drawn sketches and early interface concepts were used to test notification formats, tracking displays, and information flow.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-num">4</div><div><h3>Concept selection &amp; design development</h3><p>The team selected image-based food analysis because it reduced manual effort, improved clarity, and supported explainable output.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-num">5</div><div><h3>Functional prototype</h3><p>The SmartLens interface developed into a more complete prototype with upload preview, scan animation, macro cards, and integrated dashboard features.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-num">6</div><div><h3>User evaluation</h3><p>Questionnaire-based evaluation examined usefulness, actionability, cognitive load, trust, privacy sensitivity, and preferences across age groups.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="evidence">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Section 3</div><h2 class="section-title">Evidence of process — design stages &amp; visuals</h2></div>
+        <div class="g3">
+          <article class="card reveal"><span class="card-kicker">Slides 5–8</span><h3>Motivation and user needs</h3><p>These slides establish the project’s foundation: misinformation overload, passive tracking without insight, and the resulting need for trustworthy, actionable, minimally intrusive support.</p><figure class="evidence-shot"><img src="evidence-01-motivation.png" alt="Motivation and user-needs slide extracted from the Shepherd project PDF."><figcaption>Motivation and user needs</figcaption></figure><p class="evidence-note">Extracted from the attached course PDF.</p></article>
+          <article class="card reveal"><span class="card-kicker">Slides 10–11</span><h3>GOMS and early sketches</h3><p>This evidence shows the early task-analysis phase and low-fidelity exploration of misinformation alerts and calorie-tracking interactions.</p><figure class="evidence-shot"><img src="evidence-02-sketches.png" alt="GOMS and early hand-drawn sketch slides extracted from the Shepherd project PDF."><figcaption>GOMS + low-fidelity sketches</figcaption></figure><p class="evidence-note">Extracted from the attached course PDF.</p></article>
+          <article class="card reveal"><span class="card-kicker">Slides 13–16</span><h3>Concept selection and iteration</h3><p>This stage documents why image-based food analysis was selected and how the team moved from conceptual comparison toward a more refined and testable interface direction.</p><figure class="evidence-shot"><img src="evidence-03-iteration.png" alt="Design iteration and concept-development slide extracted from the Shepherd project PDF."><figcaption>Concept selection + iteration</figcaption></figure><p class="evidence-note">Extracted from the attached course PDF.</p></article>
+          <article class="card reveal"><span class="card-kicker">Slides 17–19</span><h3>Calorie scanner interaction</h3><p>This screenshot captures the visible AI-processing approach: upload preview, scanning feedback, macro cards, and progressive disclosure to make the system legible.</p><figure class="evidence-shot"><img src="evidence-04-scanner.png" alt="Calorie scanner interface slide extracted from the Shepherd project PDF."><figcaption>Scanner flow + visible AI feedback</figcaption></figure><p class="evidence-note">Extracted from the attached course PDF.</p></article>
+          <article class="card reveal"><span class="card-kicker">Slide 20</span><h3>Integrated SmartLens dashboard</h3><p>This is the strongest full-system visual in the deck, showing FakeGuard, NutriAI, FitTrack, SleepAI, live notifications, and the calorie scanner in one interface.</p><figure class="evidence-shot"><img src="evidence-05-dashboard.png" alt="Integrated SmartLens dashboard slide extracted from the Shepherd project PDF."><figcaption>Integrated SmartLens dashboard</figcaption></figure><p class="evidence-note">Extracted from the attached course PDF.</p></article>
+          <article class="card reveal"><span class="card-kicker">Slides 34–38</span><h3>Evaluation and findings</h3><p>This stage demonstrates questionnaire design, feedback summaries, and what users found useful, actionable, and trustworthy across different ages.</p><figure class="evidence-shot"><img src="evidence-06-evaluation.png" alt="Evaluation summary slide extracted from the Shepherd project PDF."><figcaption>Evaluation summary and findings</figcaption></figure><p class="evidence-note">Extracted from the attached course PDF.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="responsibility">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Section 4</div><h2 class="section-title">My responsibility and milestone achievements</h2></div>
+        <div class="g2">
+          <article class="card reveal"><span class="card-kicker">My responsibility</span><h3>Personal contribution within a team project</h3><p>This was a four-member group project, so this section describes the work from my own portfolio perspective rather than claiming sole authorship. My strongest contribution focus in the project narrative centered on actionability, trust-oriented interaction design, the SmartLens interface framing, and the calorie-scanner experience that turns AI output into something visible and usable.</p><ul class="checklist"><li>Framing the interaction model around actionability, trust, and calm guidance.</li><li>Contributing to the SmartLens UI story and demo-ready presentation.</li><li>Emphasizing visible AI feedback in the calorie-scanner flow.</li><li>Supporting the final narrative used for presentation and critique.</li></ul></article>
+          <div class="g2">
+            <article class="card reveal"><span class="milestone-tag">M1</span><h3>Problem definition</h3><p>Identified misinformation and passive tracking as the core user pain points.</p></article>
+            <article class="card reveal"><span class="milestone-tag">M2</span><h3>Concept selection</h3><p>Supported the shift toward image-based scanning and a more actionable system concept.</p></article>
+            <article class="card reveal"><span class="milestone-tag">M3</span><h3>Prototype execution</h3><p>Helped shape the visible AI interaction model and SmartLens product narrative.</p></article>
+            <article class="card reveal"><span class="milestone-tag">M4</span><h3>Evaluation &amp; reflection</h3><p>Interpreted user feedback around usefulness, trust, privacy, and notification sensitivity.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video-paper">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Section 5</div><h2 class="section-title">Video paper and demo previews</h2></div>
+        <div class="g2">
+          <article class="card reveal"><span class="card-kicker">Critical argument</span><h3>Wellness companion or quiet authority?</h3><p>My BMind video paper examines the mirror as an AI system that interprets mood in a highly intimate setting. The central question is whether it remains a supportive wellness companion or begins to shape how a user is expected to feel in private.</p><p>The critique is structured through a good / bad / intimate lens so that benefits and concerns stay equally visible.</p></article>
+          <article class="card reveal"><span class="card-kicker">Media treatment</span><h3>Cleaner video previews</h3><p>The heavy embedded iframes have been replaced with thumbnail-based preview cards and modal playback. This keeps the page lighter, improves visual hierarchy, and gives the media a more premium presentation.</p></article>
+        </div>
+        <div class="spacer-16"></div>
+        <div class="video-grid">
+          <article class="card video-preview reveal">
+            <div class="video-cover" style="background-image:url('https://img.youtube.com/vi/E6nw4WtdHk4/maxresdefault.jpg'), url('https://img.youtube.com/vi/E6nw4WtdHk4/hqdefault.jpg');">
+              <div class="video-topline">BMind video paper</div>
+              <button class="play-btn" type="button" data-video-open="E6nw4WtdHk4" data-video-title="BMind video paper" aria-label="Play BMind video paper">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5z"></path></svg>
+              </button>
+              <h3>Critical look at intimacy, mood sensing, and persuasive wellness AI</h3>
+              <p>A cleaner preview card for the BMind analysis, designed to feel more editorial and presentation-ready.</p>
+              <div class="video-actions">
+                <button class="video-action" type="button" data-video-open="E6nw4WtdHk4" data-video-title="BMind video paper">Play in page</button>
+                <a class="video-action" href="https://youtu.be/E6nw4WtdHk4" target="_blank" rel="noopener">Open on YouTube</a>
+              </div>
+            </div>
+          </article>
+          <article class="card video-preview reveal">
+            <div class="video-cover" style="background-image:url('https://img.youtube.com/vi/GWiHdHpN7lo/maxresdefault.jpg'), url('https://img.youtube.com/vi/GWiHdHpN7lo/hqdefault.jpg');">
+              <div class="video-topline">SmartLens demo</div>
+              <button class="play-btn" type="button" data-video-open="GWiHdHpN7lo" data-video-title="SmartLens demo" aria-label="Play SmartLens demo">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5z"></path></svg>
+              </button>
+              <h3>Interface walkthrough of the SmartLens concept and feature experience</h3>
+              <p>A higher-impact preview treatment that keeps the portfolio visually strong before playback starts.</p>
+              <div class="video-actions">
+                <button class="video-action" type="button" data-video-open="GWiHdHpN7lo" data-video-title="SmartLens demo">Play in page</button>
+                <a class="video-action" href="https://youtu.be/GWiHdHpN7lo" target="_blank" rel="noopener">Open on YouTube</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="msa">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Section 6</div><h2 class="section-title">MSA architecture &amp; integration</h2></div>
+        <div class="g2">
+          <article class="card reveal"><span class="card-kicker">Why MSA fits</span><h3>Specialist agents, one coherent interface</h3><p>The SmartLens concept maps naturally to a multi-agent system because each major function has a distinct role: misinformation analysis, nutrition interpretation, activity tracking, and sleep monitoring.</p><p>This modular structure supports clearer explanations and helps the interface surface only what matters at the right time.</p></article>
+          <article class="card reveal"><span class="card-kicker">HCI value</span><h3>From complexity to clarity</h3><p>An MSA framing supports progressive disclosure, modular reasoning, and privacy-sensitive design. It also makes the assistant feel less like a black box and more like a set of understandable specialist services working together.</p></article>
+        </div>
+        <div class="agent-row">
+          <article class="agent-chip reveal"><div class="agent-icon" aria-hidden="true">🛡️</div><h3>FakeGuard</h3><p>Detects misleading health claims and exposes credibility cues.</p></article>
+          <article class="agent-chip reveal"><div class="agent-icon" aria-hidden="true">🍎</div><h3>NutriAI</h3><p>Transforms food images into calories, macros, and clearer meal decisions.</p></article>
+          <article class="agent-chip reveal"><div class="agent-icon" aria-hidden="true">👟</div><h3>FitTrack</h3><p>Interprets step and activity data into simple progress nudges.</p></article>
+          <article class="agent-chip reveal"><div class="agent-icon" aria-hidden="true">🌙</div><h3>SleepAI</h3><p>Turns sleep signals into understandable recovery feedback.</p></article>
+        </div>
+        <div class="spacer-24"></div>
+        <div class="flow-panel reveal">
+          <div class="flow-label">Flow diagram</div>
+          <svg class="msa-svg" viewBox="0 0 1100 520" role="img" aria-label="Multi-agent architecture diagram">
+            <path class="msa-line" d="M190 140 C 290 140, 300 140, 390 140" />
+            <path class="msa-line" d="M590 140 C 690 140, 700 100, 810 100" />
+            <path class="msa-line" d="M590 140 C 690 140, 700 180, 810 180" />
+            <path class="msa-line" d="M590 140 C 690 140, 700 260, 810 260" />
+            <path class="msa-line" d="M590 140 C 690 140, 700 340, 810 340" />
+            <path class="msa-line soft" d="M900 100 C 980 100, 985 210, 1000 210" />
+            <path class="msa-line soft" d="M900 180 C 980 180, 985 220, 1000 220" />
+            <path class="msa-line soft" d="M900 260 C 980 260, 985 230, 1000 230" />
+            <path class="msa-line soft" d="M900 340 C 980 340, 985 240, 1000 240" />
+            <rect class="msa-node amber" x="40" y="88" rx="28" ry="28" width="150" height="104"></rect>
+            <text class="msa-text" x="115" y="128" text-anchor="middle">User inputs</text><text class="msa-sub" x="115" y="154" text-anchor="middle">claim, photo, steps, sleep</text>
+            <rect class="msa-node teal" x="390" y="82" rx="30" ry="30" width="200" height="116"></rect>
+            <text class="msa-text" x="490" y="124" text-anchor="middle">Coordinator /</text><text class="msa-text" x="490" y="146" text-anchor="middle">context layer</text><text class="msa-sub" x="490" y="171" text-anchor="middle">state, timing, priorities, user control</text>
+            <rect class="msa-node" x="810" y="56" rx="24" ry="24" width="170" height="88"></rect><text class="msa-text" x="895" y="96" text-anchor="middle">FakeGuard</text><text class="msa-sub" x="895" y="118" text-anchor="middle">misinformation agent</text>
+            <rect class="msa-node" x="810" y="136" rx="24" ry="24" width="170" height="88"></rect><text class="msa-text" x="895" y="176" text-anchor="middle">NutriAI</text><text class="msa-sub" x="895" y="198" text-anchor="middle">nutrition agent</text>
+            <rect class="msa-node" x="810" y="216" rx="24" ry="24" width="170" height="88"></rect><text class="msa-text" x="895" y="256" text-anchor="middle">FitTrack</text><text class="msa-sub" x="895" y="278" text-anchor="middle">activity agent</text>
+            <rect class="msa-node" x="810" y="296" rx="24" ry="24" width="170" height="88"></rect><text class="msa-text" x="895" y="336" text-anchor="middle">SleepAI</text><text class="msa-sub" x="895" y="358" text-anchor="middle">sleep agent</text>
+            <rect class="msa-node amber" x="930" y="180" rx="26" ry="26" width="150" height="104"></rect><text class="msa-text" x="1005" y="220" text-anchor="middle">Calm, actionable</text><text class="msa-text" x="1005" y="242" text-anchor="middle">output</text><text class="msa-sub" x="1005" y="267" text-anchor="middle">progressive + explainable</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="reflection">
+      <div class="container">
+        <div class="section-head reveal"><div class="eyebrow">Section 7</div><h2 class="section-title">Knowledge gained &amp; lessons learned</h2></div>
+        <div class="g2">
+          <article class="card reveal"><span class="card-kicker">Knowledge gained</span><h3>What I learned from the course</h3><ul class="checklist"><li>Needfinding can directly shape useful and desirable AI product directions.</li><li>Visible AI processing is important for trust and user confidence.</li><li>Human-centered design principles still matter strongly in the AI era.</li><li>Calm interaction is different from simply showing more data.</li><li>Evaluation revealed meaningful differences in privacy sensitivity and notification preference across age groups.</li></ul></article>
+          <article class="card reveal"><span class="card-kicker">Lessons &amp; future directions</span><h3>How I would improve the project</h3><ul class="checklist"><li>Add more granular privacy controls and clearer consent settings.</li><li>Tune notification frequency for more health-sensitive users.</li><li>Expand personalized recommendations such as meal plans or exercise support.</li><li>Extend the system to include more context-aware inference and mental-health-sensitive features.</li><li>Strengthen how the interface explains uncertainty and recommendation boundaries.</li></ul></article>
+        </div>
+        <div class="spacer-16"></div>
+        <article class="quote-card reveal"><blockquote>“HCI is not about adding intelligence everywhere, but about reducing effort, respecting users, and making system behaviour understandable and trustworthy.”</blockquote><p class="small">Closing reflection</p></article>
+        <div class="spacer-24"></div>
+        <div class="btn-row reveal"><a class="btn btn-primary" href="index.html">Back to Overview</a><a class="btn btn-ghost" href="https://github.com/mridulsharma031/smartlens" target="_blank" rel="noopener">GitHub</a></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="video-modal" data-video-modal aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-head">
+        <strong data-video-title>Video</strong>
+        <button class="modal-close" type="button" data-video-close aria-label="Close video">✕</button>
+      </div>
+      <div class="modal-body"><iframe src="" title="Embedded video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-card reveal">
+        <p class="small">Mridul Kumar Sharma · HCI Course Portfolio · 2026</p>
+        <div class="footer-actions">
+          <a class="btn btn-ghost" href="https://youtu.be/GWiHdHpN7lo" target="_blank" rel="noopener">Demo video</a>
+          <a class="btn btn-ghost" href="https://youtu.be/E6nw4WtdHk4" target="_blank" rel="noopener">Video paper</a>
+          <a class="btn btn-ghost" href="https://github.com/mridulsharma031/smartlens" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+<script>
+(function () {
+  const root = document.documentElement;
+  const toggle = document.querySelector('.theme-toggle');
+  const saved = localStorage.getItem('theme');
+  const preferredDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = saved || (preferredDark ? 'dark' : 'light');
+  function applyTheme(mode) {
+    root.setAttribute('data-theme', mode);
+    localStorage.setItem('theme', mode);
+    toggle.innerHTML = mode === 'dark'
+      ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4a9 9 0 1 0 11.5 11.5Z"></path></svg>'
+      : '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2.2M12 19.8V22M4.93 4.93l1.56 1.56M17.51 17.51l1.56 1.56M2 12h2.2M19.8 12H22M4.93 19.07l1.56-1.56M17.51 6.49l1.56-1.56"></path></svg>';
+  }
+  applyTheme(theme);
+  toggle.addEventListener('click', function () {
+    applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  });
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const revealEls = document.querySelectorAll('.reveal');
+  if (reduceMotion) {
+    revealEls.forEach(el => el.classList.add('is-visible'));
+  } else {
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14, rootMargin: '0px 0px -30px 0px' });
+    revealEls.forEach(el => observer.observe(el));
+  }
+
+  const modal = document.querySelector('[data-video-modal]');
+  const frame = modal ? modal.querySelector('iframe') : null;
+  const titleEl = modal ? modal.querySelector('[data-video-title]') : null;
+  const openButtons = document.querySelectorAll('[data-video-open]');
+  const closeButtons = document.querySelectorAll('[data-video-close]');
+
+  function closeModal() {
+    if (!modal || !frame) return;
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+    frame.src = '';
+    document.body.style.overflow = '';
+  }
+
+  function openModal(videoId, title) {
+    if (!modal || !frame) return;
+    frame.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0';
+    if (titleEl) titleEl.textContent = title;
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  openButtons.forEach(btn => {
+    btn.addEventListener('click', function () {
+      openModal(btn.dataset.videoOpen, btn.dataset.videoTitle || 'Video');
+    });
+  });
+  closeButtons.forEach(btn => btn.addEventListener('click', closeModal));
+  if (modal) {
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) closeModal();
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeModal();
+  });
+})();
+</script>
+
+</body>
+</html>
